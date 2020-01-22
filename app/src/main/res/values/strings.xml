@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+    <string name="btn_home">Buscar Filmes</string>
+
+    <string name="vote">Nota: </string>
+    <string name="genre">Gênero: </string>
+    <string name="release">Lançamento: </string>
+
+    <string name="progress">Aguarde.. Fazendo download dos dados!</string>
+
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".View.Detail">
+    
+    <ImageView
+        android:id="@+id/img_details"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/title_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_details"
+        android:layout_marginTop="16dp"
+        android:text="@string/app_name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/vote_detailsPre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_details"
+        android:layout_marginTop="8dp"
+        android:paddingEnd="16dp"
+        android:text="@string/vote"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/vote_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_details"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/vote_detailsPre"
+        android:text="@string/vote"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/genre_detailsPre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vote_detailsPre"
+        android:layout_marginTop="8dp"
+        android:paddingEnd="16dp"
+        android:text="@string/genre"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/genre_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vote_detailsPre"
+        android:layout_toEndOf="@id/genre_detailsPre"
+        android:layout_marginTop="8dp"
+        android:text="@string/genre"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/date_detailsPre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/genre_details"
+        android:paddingEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/release"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/date_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/genre_details"
+        android:layout_toEndOf="@id/date_detailsPre"
+        android:layout_marginTop="8dp"
+        android:text="@string/release"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"/>
+
+</RelativeLayout>
